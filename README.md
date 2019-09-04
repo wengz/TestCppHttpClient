@@ -12,7 +12,7 @@ ssl使用的测试so库
 
 - openssl_1.1.1 minSdkVersion需>=23。
 
-- 测试时发现在使用静态库编译时需要在target_link_libraries中加入 z (表示zlib库)才可以正常编译.。
+- 需要zlib支持时要在target_link_libraries中加入 z (表示zlib库)才可以正常编译。
 
 ---
 参考链接
